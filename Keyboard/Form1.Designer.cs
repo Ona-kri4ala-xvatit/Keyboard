@@ -69,7 +69,7 @@
             qButton = new Button();
             pButton = new Button();
             spaceButton = new Button();
-            richTextBox1 = new RichTextBox();
+            richTextBox = new RichTextBox();
             SuspendLayout();
             // 
             // backspaceButton
@@ -431,6 +431,7 @@
             aButton.TabIndex = 71;
             aButton.Text = "a";
             aButton.UseVisualStyleBackColor = false;
+            aButton.Click += ButtonClick;
             // 
             // uButton
             // 
@@ -564,20 +565,19 @@
             spaceButton.Text = "Space ";
             spaceButton.UseVisualStyleBackColor = false;
             // 
-            // richTextBox1
+            // richTextBox
             // 
-            richTextBox1.BackColor = Color.Gray;
-            richTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            richTextBox1.Dock = DockStyle.Top;
-            richTextBox1.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox1.ForeColor = Color.White;
-            richTextBox1.Location = new Point(0, 0);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.ScrollBars = RichTextBoxScrollBars.Vertical;
-            richTextBox1.Size = new Size(519, 232);
-            richTextBox1.TabIndex = 92;
-            richTextBox1.Text = "";
+            richTextBox.BackColor = Color.Gray;
+            richTextBox.BorderStyle = BorderStyle.FixedSingle;
+            richTextBox.Dock = DockStyle.Top;
+            richTextBox.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox.ForeColor = Color.White;
+            richTextBox.Location = new Point(0, 0);
+            richTextBox.Name = "richTextBox";
+            richTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            richTextBox.Size = new Size(519, 232);
+            richTextBox.TabIndex = 92;
+            richTextBox.Text = "";
             // 
             // Keyboard
             // 
@@ -585,7 +585,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(519, 452);
-            Controls.Add(richTextBox1);
+            Controls.Add(richTextBox);
             Controls.Add(spaceButton);
             Controls.Add(pButton);
             Controls.Add(uButton);
@@ -677,6 +677,6 @@
         private Button qButton;
         private Button pButton;
         private Button spaceButton;
-        private RichTextBox richTextBox1;
+        private RichTextBox richTextBox;
     }
 }
