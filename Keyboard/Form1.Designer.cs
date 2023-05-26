@@ -83,6 +83,7 @@
             backspaceButton.TabIndex = 10;
             backspaceButton.Text = "Backspace";
             backspaceButton.UseVisualStyleBackColor = false;
+            backspaceButton.Click += ButtonClick;
             // 
             // oneButton
             // 
@@ -95,6 +96,7 @@
             oneButton.TabIndex = 41;
             oneButton.Text = "1";
             oneButton.UseVisualStyleBackColor = false;
+            oneButton.Click += ButtonClick;
             // 
             // fiveButton
             // 
@@ -107,6 +109,7 @@
             fiveButton.TabIndex = 42;
             fiveButton.Text = "5";
             fiveButton.UseVisualStyleBackColor = false;
+            fiveButton.Click += ButtonClick;
             // 
             // fourButton
             // 
@@ -119,6 +122,7 @@
             fourButton.TabIndex = 43;
             fourButton.Text = "4";
             fourButton.UseVisualStyleBackColor = false;
+            fourButton.Click += ButtonClick;
             // 
             // threeButton
             // 
@@ -131,6 +135,7 @@
             threeButton.TabIndex = 44;
             threeButton.Text = "3";
             threeButton.UseVisualStyleBackColor = false;
+            threeButton.Click += ButtonClick;
             // 
             // twoButton
             // 
@@ -143,6 +148,7 @@
             twoButton.TabIndex = 45;
             twoButton.Text = "2";
             twoButton.UseVisualStyleBackColor = false;
+            twoButton.Click += ButtonClick;
             // 
             // sevenButton
             // 
@@ -155,6 +161,7 @@
             sevenButton.TabIndex = 50;
             sevenButton.Text = "7";
             sevenButton.UseVisualStyleBackColor = false;
+            sevenButton.Click += ButtonClick;
             // 
             // eightButton
             // 
@@ -167,6 +174,7 @@
             eightButton.TabIndex = 49;
             eightButton.Text = "8";
             eightButton.UseVisualStyleBackColor = false;
+            eightButton.Click += ButtonClick;
             // 
             // nineButton
             // 
@@ -179,6 +187,7 @@
             nineButton.TabIndex = 48;
             nineButton.Text = "9";
             nineButton.UseVisualStyleBackColor = false;
+            nineButton.Click += ButtonClick;
             // 
             // zeroButton
             // 
@@ -191,6 +200,7 @@
             zeroButton.TabIndex = 47;
             zeroButton.Text = "0";
             zeroButton.UseVisualStyleBackColor = false;
+            zeroButton.Click += ButtonClick;
             // 
             // sixButton
             // 
@@ -203,6 +213,7 @@
             sixButton.TabIndex = 46;
             sixButton.Text = "6";
             sixButton.UseVisualStyleBackColor = false;
+            sixButton.Click += ButtonClick;
             // 
             // mButton
             // 
@@ -215,6 +226,7 @@
             mButton.TabIndex = 70;
             mButton.Text = "m";
             mButton.UseVisualStyleBackColor = false;
+            mButton.Click += ButtonClick;
             // 
             // commaButton
             // 
@@ -227,6 +239,7 @@
             commaButton.TabIndex = 69;
             commaButton.Text = ",";
             commaButton.UseVisualStyleBackColor = false;
+            commaButton.Click += ButtonClick;
             // 
             // pointButton
             // 
@@ -239,6 +252,7 @@
             pointButton.TabIndex = 68;
             pointButton.Text = ".";
             pointButton.UseVisualStyleBackColor = false;
+            pointButton.Click += ButtonClick;
             // 
             // slashButton
             // 
@@ -251,6 +265,7 @@
             slashButton.TabIndex = 67;
             slashButton.Text = "/";
             slashButton.UseVisualStyleBackColor = false;
+            slashButton.Click += ButtonClick;
             // 
             // nButton
             // 
@@ -263,6 +278,7 @@
             nButton.TabIndex = 66;
             nButton.Text = "n";
             nButton.UseVisualStyleBackColor = false;
+            nButton.Click += ButtonClick;
             // 
             // xButton
             // 
@@ -275,6 +291,7 @@
             xButton.TabIndex = 65;
             xButton.Text = "x";
             xButton.UseVisualStyleBackColor = false;
+            xButton.Click += ButtonClick;
             // 
             // cButton
             // 
@@ -287,6 +304,7 @@
             cButton.TabIndex = 64;
             cButton.Text = "c";
             cButton.UseVisualStyleBackColor = false;
+            cButton.Click += ButtonClick;
             // 
             // vButton
             // 
@@ -299,6 +317,7 @@
             vButton.TabIndex = 63;
             vButton.Text = "v";
             vButton.UseVisualStyleBackColor = false;
+            vButton.Click += ButtonClick;
             // 
             // bButton
             // 
@@ -311,6 +330,7 @@
             bButton.TabIndex = 62;
             bButton.Text = "b";
             bButton.UseVisualStyleBackColor = false;
+            bButton.Click += ButtonClick;
             // 
             // zButton
             // 
@@ -323,6 +343,7 @@
             zButton.TabIndex = 61;
             zButton.Text = "z";
             zButton.UseVisualStyleBackColor = false;
+            zButton.Click += ButtonClick;
             // 
             // jButton
             // 
@@ -335,6 +356,7 @@
             jButton.TabIndex = 80;
             jButton.Text = "j";
             jButton.UseVisualStyleBackColor = false;
+            jButton.Click += ButtonClick;
             // 
             // kButton
             // 
@@ -347,6 +369,7 @@
             kButton.TabIndex = 79;
             kButton.Text = "k";
             kButton.UseVisualStyleBackColor = false;
+            kButton.Click += ButtonClick;
             // 
             // lButton
             // 
@@ -359,6 +382,7 @@
             lButton.TabIndex = 78;
             lButton.Text = "l";
             lButton.UseVisualStyleBackColor = false;
+            lButton.Click += ButtonClick;
             // 
             // hButton
             // 
@@ -371,6 +395,7 @@
             hButton.TabIndex = 76;
             hButton.Text = "h";
             hButton.UseVisualStyleBackColor = false;
+            hButton.Click += ButtonClick;
             // 
             // sButton
             // 
@@ -383,6 +408,7 @@
             sButton.TabIndex = 75;
             sButton.Text = "s";
             sButton.UseVisualStyleBackColor = false;
+            sButton.Click += ButtonClick;
             // 
             // dButton
             // 
@@ -395,6 +421,7 @@
             dButton.TabIndex = 74;
             dButton.Text = "d";
             dButton.UseVisualStyleBackColor = false;
+            dButton.Click += ButtonClick;
             // 
             // fButton
             // 
@@ -407,6 +434,7 @@
             fButton.TabIndex = 73;
             fButton.Text = "f";
             fButton.UseVisualStyleBackColor = false;
+            fButton.Click += ButtonClick;
             // 
             // gButton
             // 
@@ -419,6 +447,7 @@
             gButton.TabIndex = 72;
             gButton.Text = "g";
             gButton.UseVisualStyleBackColor = false;
+            gButton.Click += ButtonClick;
             // 
             // aButton
             // 
@@ -444,6 +473,7 @@
             uButton.TabIndex = 89;
             uButton.Text = "u";
             uButton.UseVisualStyleBackColor = false;
+            uButton.Click += ButtonClick;
             // 
             // iButton
             // 
@@ -456,6 +486,7 @@
             iButton.TabIndex = 88;
             iButton.Text = "i";
             iButton.UseVisualStyleBackColor = false;
+            iButton.Click += ButtonClick;
             // 
             // oButton
             // 
@@ -468,6 +499,7 @@
             oButton.TabIndex = 87;
             oButton.Text = "o";
             oButton.UseVisualStyleBackColor = false;
+            oButton.Click += ButtonClick;
             // 
             // yButton
             // 
@@ -480,6 +512,7 @@
             yButton.TabIndex = 86;
             yButton.Text = "y";
             yButton.UseVisualStyleBackColor = false;
+            yButton.Click += ButtonClick;
             // 
             // wButton
             // 
@@ -492,6 +525,7 @@
             wButton.TabIndex = 85;
             wButton.Text = "w";
             wButton.UseVisualStyleBackColor = false;
+            wButton.Click += ButtonClick;
             // 
             // eButton
             // 
@@ -504,6 +538,7 @@
             eButton.TabIndex = 84;
             eButton.Text = "e";
             eButton.UseVisualStyleBackColor = false;
+            eButton.Click += ButtonClick;
             // 
             // rButton
             // 
@@ -516,6 +551,7 @@
             rButton.TabIndex = 83;
             rButton.Text = "r";
             rButton.UseVisualStyleBackColor = false;
+            rButton.Click += ButtonClick;
             // 
             // tButton
             // 
@@ -528,6 +564,7 @@
             tButton.TabIndex = 82;
             tButton.Text = "t";
             tButton.UseVisualStyleBackColor = false;
+            tButton.Click += ButtonClick;
             // 
             // qButton
             // 
@@ -540,6 +577,7 @@
             qButton.TabIndex = 81;
             qButton.Text = "q";
             qButton.UseVisualStyleBackColor = false;
+            qButton.Click += ButtonClick;
             // 
             // pButton
             // 
@@ -552,6 +590,7 @@
             pButton.TabIndex = 90;
             pButton.Text = "p";
             pButton.UseVisualStyleBackColor = false;
+            pButton.Click += ButtonClick;
             // 
             // spaceButton
             // 
@@ -564,6 +603,7 @@
             spaceButton.TabIndex = 91;
             spaceButton.Text = "Space ";
             spaceButton.UseVisualStyleBackColor = false;
+            spaceButton.Click += ButtonClick;
             // 
             // richTextBox
             // 

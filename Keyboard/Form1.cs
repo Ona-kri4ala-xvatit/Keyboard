@@ -9,7 +9,7 @@ namespace Keyboard
 
         private void ButtonClick(object sender, EventArgs e)
         {
-            
+            richTextBox.AppendText((sender as Button).Text);
         }
     }
 }
