@@ -15,7 +15,15 @@ namespace Keyboard
             }
             else if ((sender as Button).Text == "Backspace")
             {
-
+                if (string.IsNullOrEmpty(richTextBox.Text))
+                {
+                    return;
+                }
+                else
+                {
+                    string str = richTextBox.Text;
+                    richTextBox.Text = str.Remove(str.Length - 1);
+                }
             }
             else 
             {
