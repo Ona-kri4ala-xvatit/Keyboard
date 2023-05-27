@@ -25,7 +25,7 @@ namespace Keyboard
                     richTextBox.Text = str.Remove(str.Length - 1);
                 }
             }
-            else 
+            else
             {
                 richTextBox.AppendText((sender as Button).Text);
             }

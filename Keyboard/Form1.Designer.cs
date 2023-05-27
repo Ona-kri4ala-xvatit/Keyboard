@@ -70,6 +70,10 @@
             pButton = new Button();
             spaceButton = new Button();
             richTextBox = new RichTextBox();
+            exclamationMarkButton = new Button();
+            questionMarkButton = new Button();
+            quotationMarkButton = new Button();
+            singleQuotationMarkButton = new Button();
             SuspendLayout();
             // 
             // backspaceButton
@@ -220,7 +224,7 @@
             mButton.BackColor = SystemColors.ActiveCaptionText;
             mButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             mButton.ForeColor = SystemColors.ButtonFace;
-            mButton.Location = new Point(290, 365);
+            mButton.Location = new Point(270, 364);
             mButton.Name = "mButton";
             mButton.Size = new Size(41, 36);
             mButton.TabIndex = 70;
@@ -233,7 +237,7 @@
             commaButton.BackColor = SystemColors.ActiveCaptionText;
             commaButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             commaButton.ForeColor = SystemColors.ButtonFace;
-            commaButton.Location = new Point(329, 365);
+            commaButton.Location = new Point(309, 364);
             commaButton.Name = "commaButton";
             commaButton.Size = new Size(41, 36);
             commaButton.TabIndex = 69;
@@ -246,7 +250,7 @@
             pointButton.BackColor = SystemColors.ActiveCaptionText;
             pointButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             pointButton.ForeColor = SystemColors.ButtonFace;
-            pointButton.Location = new Point(369, 365);
+            pointButton.Location = new Point(349, 364);
             pointButton.Name = "pointButton";
             pointButton.Size = new Size(41, 36);
             pointButton.TabIndex = 68;
@@ -259,7 +263,7 @@
             slashButton.BackColor = SystemColors.ActiveCaptionText;
             slashButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             slashButton.ForeColor = SystemColors.ButtonFace;
-            slashButton.Location = new Point(406, 365);
+            slashButton.Location = new Point(386, 364);
             slashButton.Name = "slashButton";
             slashButton.Size = new Size(41, 36);
             slashButton.TabIndex = 67;
@@ -272,7 +276,7 @@
             nButton.BackColor = SystemColors.ActiveCaptionText;
             nButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             nButton.ForeColor = SystemColors.ButtonFace;
-            nButton.Location = new Point(252, 365);
+            nButton.Location = new Point(232, 364);
             nButton.Name = "nButton";
             nButton.Size = new Size(41, 36);
             nButton.TabIndex = 66;
@@ -285,7 +289,7 @@
             xButton.BackColor = SystemColors.ActiveCaptionText;
             xButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             xButton.ForeColor = SystemColors.ButtonFace;
-            xButton.Location = new Point(95, 365);
+            xButton.Location = new Point(75, 364);
             xButton.Name = "xButton";
             xButton.Size = new Size(41, 36);
             xButton.TabIndex = 65;
@@ -298,7 +302,7 @@
             cButton.BackColor = SystemColors.ActiveCaptionText;
             cButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             cButton.ForeColor = SystemColors.ButtonFace;
-            cButton.Location = new Point(134, 365);
+            cButton.Location = new Point(114, 364);
             cButton.Name = "cButton";
             cButton.Size = new Size(41, 36);
             cButton.TabIndex = 64;
@@ -311,7 +315,7 @@
             vButton.BackColor = SystemColors.ActiveCaptionText;
             vButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             vButton.ForeColor = SystemColors.ButtonFace;
-            vButton.Location = new Point(172, 365);
+            vButton.Location = new Point(152, 364);
             vButton.Name = "vButton";
             vButton.Size = new Size(41, 36);
             vButton.TabIndex = 63;
@@ -324,7 +328,7 @@
             bButton.BackColor = SystemColors.ActiveCaptionText;
             bButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             bButton.ForeColor = SystemColors.ButtonFace;
-            bButton.Location = new Point(213, 365);
+            bButton.Location = new Point(193, 364);
             bButton.Name = "bButton";
             bButton.Size = new Size(41, 36);
             bButton.TabIndex = 62;
@@ -337,7 +341,7 @@
             zButton.BackColor = SystemColors.ActiveCaptionText;
             zButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             zButton.ForeColor = SystemColors.ButtonFace;
-            zButton.Location = new Point(58, 365);
+            zButton.Location = new Point(38, 364);
             zButton.Name = "zButton";
             zButton.Size = new Size(41, 36);
             zButton.TabIndex = 61;
@@ -350,7 +354,7 @@
             jButton.BackColor = SystemColors.ActiveCaptionText;
             jButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             jButton.ForeColor = SystemColors.ButtonFace;
-            jButton.Location = new Point(274, 323);
+            jButton.Location = new Point(286, 322);
             jButton.Name = "jButton";
             jButton.Size = new Size(41, 36);
             jButton.TabIndex = 80;
@@ -363,7 +367,7 @@
             kButton.BackColor = SystemColors.ActiveCaptionText;
             kButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             kButton.ForeColor = SystemColors.ButtonFace;
-            kButton.Location = new Point(313, 323);
+            kButton.Location = new Point(325, 322);
             kButton.Name = "kButton";
             kButton.Size = new Size(41, 36);
             kButton.TabIndex = 79;
@@ -376,7 +380,7 @@
             lButton.BackColor = SystemColors.ActiveCaptionText;
             lButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lButton.ForeColor = SystemColors.ButtonFace;
-            lButton.Location = new Point(354, 323);
+            lButton.Location = new Point(366, 322);
             lButton.Name = "lButton";
             lButton.Size = new Size(41, 36);
             lButton.TabIndex = 78;
@@ -389,7 +393,7 @@
             hButton.BackColor = SystemColors.ActiveCaptionText;
             hButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             hButton.ForeColor = SystemColors.ButtonFace;
-            hButton.Location = new Point(236, 323);
+            hButton.Location = new Point(248, 322);
             hButton.Name = "hButton";
             hButton.Size = new Size(41, 36);
             hButton.TabIndex = 76;
@@ -402,7 +406,7 @@
             sButton.BackColor = SystemColors.ActiveCaptionText;
             sButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             sButton.ForeColor = SystemColors.ButtonFace;
-            sButton.Location = new Point(76, 323);
+            sButton.Location = new Point(88, 322);
             sButton.Name = "sButton";
             sButton.Size = new Size(41, 36);
             sButton.TabIndex = 75;
@@ -415,7 +419,7 @@
             dButton.BackColor = SystemColors.ActiveCaptionText;
             dButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             dButton.ForeColor = SystemColors.ButtonFace;
-            dButton.Location = new Point(115, 323);
+            dButton.Location = new Point(127, 322);
             dButton.Name = "dButton";
             dButton.Size = new Size(41, 36);
             dButton.TabIndex = 74;
@@ -428,7 +432,7 @@
             fButton.BackColor = SystemColors.ActiveCaptionText;
             fButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fButton.ForeColor = SystemColors.ButtonFace;
-            fButton.Location = new Point(156, 323);
+            fButton.Location = new Point(168, 322);
             fButton.Name = "fButton";
             fButton.Size = new Size(41, 36);
             fButton.TabIndex = 73;
@@ -441,7 +445,7 @@
             gButton.BackColor = SystemColors.ActiveCaptionText;
             gButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             gButton.ForeColor = SystemColors.ButtonFace;
-            gButton.Location = new Point(197, 323);
+            gButton.Location = new Point(209, 322);
             gButton.Name = "gButton";
             gButton.Size = new Size(41, 36);
             gButton.TabIndex = 72;
@@ -454,7 +458,7 @@
             aButton.BackColor = SystemColors.ActiveCaptionText;
             aButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             aButton.ForeColor = SystemColors.ButtonFace;
-            aButton.Location = new Point(38, 323);
+            aButton.Location = new Point(50, 322);
             aButton.Name = "aButton";
             aButton.Size = new Size(41, 36);
             aButton.TabIndex = 71;
@@ -467,7 +471,7 @@
             uButton.BackColor = SystemColors.ActiveCaptionText;
             uButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             uButton.ForeColor = SystemColors.ButtonFace;
-            uButton.Location = new Point(293, 281);
+            uButton.Location = new Point(304, 280);
             uButton.Name = "uButton";
             uButton.Size = new Size(41, 36);
             uButton.TabIndex = 89;
@@ -480,7 +484,7 @@
             iButton.BackColor = SystemColors.ActiveCaptionText;
             iButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             iButton.ForeColor = SystemColors.ButtonFace;
-            iButton.Location = new Point(332, 281);
+            iButton.Location = new Point(343, 280);
             iButton.Name = "iButton";
             iButton.Size = new Size(41, 36);
             iButton.TabIndex = 88;
@@ -493,7 +497,7 @@
             oButton.BackColor = SystemColors.ActiveCaptionText;
             oButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             oButton.ForeColor = SystemColors.ButtonFace;
-            oButton.Location = new Point(373, 281);
+            oButton.Location = new Point(384, 280);
             oButton.Name = "oButton";
             oButton.Size = new Size(41, 36);
             oButton.TabIndex = 87;
@@ -506,7 +510,7 @@
             yButton.BackColor = SystemColors.ActiveCaptionText;
             yButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             yButton.ForeColor = SystemColors.ButtonFace;
-            yButton.Location = new Point(255, 281);
+            yButton.Location = new Point(266, 280);
             yButton.Name = "yButton";
             yButton.Size = new Size(41, 36);
             yButton.TabIndex = 86;
@@ -519,7 +523,7 @@
             wButton.BackColor = SystemColors.ActiveCaptionText;
             wButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             wButton.ForeColor = SystemColors.ButtonFace;
-            wButton.Location = new Point(95, 281);
+            wButton.Location = new Point(106, 280);
             wButton.Name = "wButton";
             wButton.Size = new Size(41, 36);
             wButton.TabIndex = 85;
@@ -532,7 +536,7 @@
             eButton.BackColor = SystemColors.ActiveCaptionText;
             eButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             eButton.ForeColor = SystemColors.ButtonFace;
-            eButton.Location = new Point(134, 281);
+            eButton.Location = new Point(145, 280);
             eButton.Name = "eButton";
             eButton.Size = new Size(41, 36);
             eButton.TabIndex = 84;
@@ -545,7 +549,7 @@
             rButton.BackColor = SystemColors.ActiveCaptionText;
             rButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             rButton.ForeColor = SystemColors.ButtonFace;
-            rButton.Location = new Point(175, 281);
+            rButton.Location = new Point(186, 280);
             rButton.Name = "rButton";
             rButton.Size = new Size(41, 36);
             rButton.TabIndex = 83;
@@ -558,7 +562,7 @@
             tButton.BackColor = SystemColors.ActiveCaptionText;
             tButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             tButton.ForeColor = SystemColors.ButtonFace;
-            tButton.Location = new Point(216, 281);
+            tButton.Location = new Point(227, 280);
             tButton.Name = "tButton";
             tButton.Size = new Size(41, 36);
             tButton.TabIndex = 82;
@@ -571,7 +575,7 @@
             qButton.BackColor = SystemColors.ActiveCaptionText;
             qButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             qButton.ForeColor = SystemColors.ButtonFace;
-            qButton.Location = new Point(57, 281);
+            qButton.Location = new Point(68, 280);
             qButton.Name = "qButton";
             qButton.Size = new Size(41, 36);
             qButton.TabIndex = 81;
@@ -584,7 +588,7 @@
             pButton.BackColor = SystemColors.ActiveCaptionText;
             pButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             pButton.ForeColor = SystemColors.ButtonFace;
-            pButton.Location = new Point(420, 281);
+            pButton.Location = new Point(420, 280);
             pButton.Name = "pButton";
             pButton.Size = new Size(41, 36);
             pButton.TabIndex = 90;
@@ -599,7 +603,7 @@
             spaceButton.ForeColor = SystemColors.ButtonFace;
             spaceButton.Location = new Point(87, 404);
             spaceButton.Name = "spaceButton";
-            spaceButton.Size = new Size(339, 45);
+            spaceButton.Size = new Size(361, 45);
             spaceButton.TabIndex = 91;
             spaceButton.Text = "Space ";
             spaceButton.UseVisualStyleBackColor = false;
@@ -619,12 +623,68 @@
             richTextBox.TabIndex = 92;
             richTextBox.Text = "";
             // 
+            // exclamationMarkButton
+            // 
+            exclamationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            exclamationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            exclamationMarkButton.ForeColor = SystemColors.ButtonFace;
+            exclamationMarkButton.Location = new Point(423, 364);
+            exclamationMarkButton.Name = "exclamationMarkButton";
+            exclamationMarkButton.Size = new Size(41, 36);
+            exclamationMarkButton.TabIndex = 93;
+            exclamationMarkButton.Text = "!";
+            exclamationMarkButton.UseVisualStyleBackColor = false;
+            exclamationMarkButton.Click += ButtonClick;
+            // 
+            // questionMarkButton
+            // 
+            questionMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            questionMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            questionMarkButton.ForeColor = SystemColors.ButtonFace;
+            questionMarkButton.Location = new Point(460, 364);
+            questionMarkButton.Name = "questionMarkButton";
+            questionMarkButton.Size = new Size(41, 36);
+            questionMarkButton.TabIndex = 94;
+            questionMarkButton.Text = "?";
+            questionMarkButton.UseVisualStyleBackColor = false;
+            questionMarkButton.Click += ButtonClick;
+            // 
+            // quotationMarkButton
+            // 
+            quotationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            quotationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            quotationMarkButton.ForeColor = SystemColors.ButtonFace;
+            quotationMarkButton.Location = new Point(446, 322);
+            quotationMarkButton.Name = "quotationMarkButton";
+            quotationMarkButton.Size = new Size(41, 36);
+            quotationMarkButton.TabIndex = 95;
+            quotationMarkButton.Text = "\"";
+            quotationMarkButton.UseVisualStyleBackColor = false;
+            quotationMarkButton.Click += ButtonClick;
+            // 
+            // singleQuotationMarkButton
+            // 
+            singleQuotationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            singleQuotationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            singleQuotationMarkButton.ForeColor = SystemColors.ButtonFace;
+            singleQuotationMarkButton.Location = new Point(407, 322);
+            singleQuotationMarkButton.Name = "singleQuotationMarkButton";
+            singleQuotationMarkButton.Size = new Size(41, 36);
+            singleQuotationMarkButton.TabIndex = 96;
+            singleQuotationMarkButton.Text = "'";
+            singleQuotationMarkButton.UseVisualStyleBackColor = false;
+            singleQuotationMarkButton.Click += ButtonClick;
+            // 
             // Keyboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(519, 452);
+            Controls.Add(singleQuotationMarkButton);
+            Controls.Add(quotationMarkButton);
+            Controls.Add(questionMarkButton);
+            Controls.Add(exclamationMarkButton);
             Controls.Add(richTextBox);
             Controls.Add(spaceButton);
             Controls.Add(pButton);
@@ -718,5 +778,9 @@
         private Button pButton;
         private Button spaceButton;
         private RichTextBox richTextBox;
+        private Button exclamationMarkButton;
+        private Button questionMarkButton;
+        private Button quotationMarkButton;
+        private Button singleQuotationMarkButton;
     }
 }
