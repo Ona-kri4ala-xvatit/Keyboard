@@ -79,6 +79,7 @@
             // backspaceButton
             // 
             backspaceButton.BackColor = SystemColors.ActiveCaptionText;
+            backspaceButton.Cursor = Cursors.Hand;
             backspaceButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             backspaceButton.ForeColor = SystemColors.ButtonFace;
             backspaceButton.Location = new Point(405, 238);
@@ -92,6 +93,7 @@
             // oneButton
             // 
             oneButton.BackColor = SystemColors.ActiveCaptionText;
+            oneButton.Cursor = Cursors.Hand;
             oneButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             oneButton.ForeColor = SystemColors.ButtonFace;
             oneButton.Location = new Point(12, 238);
@@ -105,6 +107,7 @@
             // fiveButton
             // 
             fiveButton.BackColor = SystemColors.ActiveCaptionText;
+            fiveButton.Cursor = Cursors.Hand;
             fiveButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fiveButton.ForeColor = SystemColors.ButtonFace;
             fiveButton.Location = new Point(171, 238);
@@ -118,6 +121,7 @@
             // fourButton
             // 
             fourButton.BackColor = SystemColors.ActiveCaptionText;
+            fourButton.Cursor = Cursors.Hand;
             fourButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fourButton.ForeColor = SystemColors.ButtonFace;
             fourButton.Location = new Point(130, 238);
@@ -131,6 +135,7 @@
             // threeButton
             // 
             threeButton.BackColor = SystemColors.ActiveCaptionText;
+            threeButton.Cursor = Cursors.Hand;
             threeButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             threeButton.ForeColor = SystemColors.ButtonFace;
             threeButton.Location = new Point(89, 238);
@@ -144,6 +149,7 @@
             // twoButton
             // 
             twoButton.BackColor = SystemColors.ActiveCaptionText;
+            twoButton.Cursor = Cursors.Hand;
             twoButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             twoButton.ForeColor = SystemColors.ButtonFace;
             twoButton.Location = new Point(50, 238);
@@ -157,6 +163,7 @@
             // sevenButton
             // 
             sevenButton.BackColor = SystemColors.ActiveCaptionText;
+            sevenButton.Cursor = Cursors.Hand;
             sevenButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             sevenButton.ForeColor = SystemColors.ButtonFace;
             sevenButton.Location = new Point(248, 238);
@@ -170,6 +177,7 @@
             // eightButton
             // 
             eightButton.BackColor = SystemColors.ActiveCaptionText;
+            eightButton.Cursor = Cursors.Hand;
             eightButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             eightButton.ForeColor = SystemColors.ButtonFace;
             eightButton.Location = new Point(287, 238);
@@ -183,6 +191,7 @@
             // nineButton
             // 
             nineButton.BackColor = SystemColors.ActiveCaptionText;
+            nineButton.Cursor = Cursors.Hand;
             nineButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             nineButton.ForeColor = SystemColors.ButtonFace;
             nineButton.Location = new Point(328, 238);
@@ -196,6 +205,7 @@
             // zeroButton
             // 
             zeroButton.BackColor = SystemColors.ActiveCaptionText;
+            zeroButton.Cursor = Cursors.Hand;
             zeroButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             zeroButton.ForeColor = SystemColors.ButtonFace;
             zeroButton.Location = new Point(369, 238);
@@ -209,6 +219,7 @@
             // sixButton
             // 
             sixButton.BackColor = SystemColors.ActiveCaptionText;
+            sixButton.Cursor = Cursors.Hand;
             sixButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             sixButton.ForeColor = SystemColors.ButtonFace;
             sixButton.Location = new Point(210, 238);
@@ -222,6 +233,7 @@
             // mButton
             // 
             mButton.BackColor = SystemColors.ActiveCaptionText;
+            mButton.Cursor = Cursors.Hand;
             mButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             mButton.ForeColor = SystemColors.ButtonFace;
             mButton.Location = new Point(270, 364);
@@ -235,6 +247,7 @@
             // commaButton
             // 
             commaButton.BackColor = SystemColors.ActiveCaptionText;
+            commaButton.Cursor = Cursors.Hand;
             commaButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             commaButton.ForeColor = SystemColors.ButtonFace;
             commaButton.Location = new Point(309, 364);
@@ -248,6 +261,7 @@
             // pointButton
             // 
             pointButton.BackColor = SystemColors.ActiveCaptionText;
+            pointButton.Cursor = Cursors.Hand;
             pointButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             pointButton.ForeColor = SystemColors.ButtonFace;
             pointButton.Location = new Point(349, 364);
@@ -261,6 +275,7 @@
             // slashButton
             // 
             slashButton.BackColor = SystemColors.ActiveCaptionText;
+            slashButton.Cursor = Cursors.Hand;
             slashButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             slashButton.ForeColor = SystemColors.ButtonFace;
             slashButton.Location = new Point(386, 364);
@@ -274,6 +289,7 @@
             // nButton
             // 
             nButton.BackColor = SystemColors.ActiveCaptionText;
+            nButton.Cursor = Cursors.Hand;
             nButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             nButton.ForeColor = SystemColors.ButtonFace;
             nButton.Location = new Point(232, 364);
@@ -287,6 +303,7 @@
             // xButton
             // 
             xButton.BackColor = SystemColors.ActiveCaptionText;
+            xButton.Cursor = Cursors.Hand;
             xButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             xButton.ForeColor = SystemColors.ButtonFace;
             xButton.Location = new Point(75, 364);
@@ -300,6 +317,7 @@
             // cButton
             // 
             cButton.BackColor = SystemColors.ActiveCaptionText;
+            cButton.Cursor = Cursors.Hand;
             cButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             cButton.ForeColor = SystemColors.ButtonFace;
             cButton.Location = new Point(114, 364);
@@ -313,6 +331,7 @@
             // vButton
             // 
             vButton.BackColor = SystemColors.ActiveCaptionText;
+            vButton.Cursor = Cursors.Hand;
             vButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             vButton.ForeColor = SystemColors.ButtonFace;
             vButton.Location = new Point(152, 364);
@@ -326,6 +345,7 @@
             // bButton
             // 
             bButton.BackColor = SystemColors.ActiveCaptionText;
+            bButton.Cursor = Cursors.Hand;
             bButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             bButton.ForeColor = SystemColors.ButtonFace;
             bButton.Location = new Point(193, 364);
@@ -339,6 +359,7 @@
             // zButton
             // 
             zButton.BackColor = SystemColors.ActiveCaptionText;
+            zButton.Cursor = Cursors.Hand;
             zButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             zButton.ForeColor = SystemColors.ButtonFace;
             zButton.Location = new Point(38, 364);
@@ -352,6 +373,7 @@
             // jButton
             // 
             jButton.BackColor = SystemColors.ActiveCaptionText;
+            jButton.Cursor = Cursors.Hand;
             jButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             jButton.ForeColor = SystemColors.ButtonFace;
             jButton.Location = new Point(286, 322);
@@ -365,6 +387,7 @@
             // kButton
             // 
             kButton.BackColor = SystemColors.ActiveCaptionText;
+            kButton.Cursor = Cursors.Hand;
             kButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             kButton.ForeColor = SystemColors.ButtonFace;
             kButton.Location = new Point(325, 322);
@@ -378,6 +401,7 @@
             // lButton
             // 
             lButton.BackColor = SystemColors.ActiveCaptionText;
+            lButton.Cursor = Cursors.Hand;
             lButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             lButton.ForeColor = SystemColors.ButtonFace;
             lButton.Location = new Point(366, 322);
@@ -391,6 +415,7 @@
             // hButton
             // 
             hButton.BackColor = SystemColors.ActiveCaptionText;
+            hButton.Cursor = Cursors.Hand;
             hButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             hButton.ForeColor = SystemColors.ButtonFace;
             hButton.Location = new Point(248, 322);
@@ -404,6 +429,7 @@
             // sButton
             // 
             sButton.BackColor = SystemColors.ActiveCaptionText;
+            sButton.Cursor = Cursors.Hand;
             sButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             sButton.ForeColor = SystemColors.ButtonFace;
             sButton.Location = new Point(88, 322);
@@ -417,6 +443,7 @@
             // dButton
             // 
             dButton.BackColor = SystemColors.ActiveCaptionText;
+            dButton.Cursor = Cursors.Hand;
             dButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             dButton.ForeColor = SystemColors.ButtonFace;
             dButton.Location = new Point(127, 322);
@@ -430,6 +457,7 @@
             // fButton
             // 
             fButton.BackColor = SystemColors.ActiveCaptionText;
+            fButton.Cursor = Cursors.Hand;
             fButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             fButton.ForeColor = SystemColors.ButtonFace;
             fButton.Location = new Point(168, 322);
@@ -443,6 +471,7 @@
             // gButton
             // 
             gButton.BackColor = SystemColors.ActiveCaptionText;
+            gButton.Cursor = Cursors.Hand;
             gButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             gButton.ForeColor = SystemColors.ButtonFace;
             gButton.Location = new Point(209, 322);
@@ -456,6 +485,7 @@
             // aButton
             // 
             aButton.BackColor = SystemColors.ActiveCaptionText;
+            aButton.Cursor = Cursors.Hand;
             aButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             aButton.ForeColor = SystemColors.ButtonFace;
             aButton.Location = new Point(50, 322);
@@ -469,6 +499,7 @@
             // uButton
             // 
             uButton.BackColor = SystemColors.ActiveCaptionText;
+            uButton.Cursor = Cursors.Hand;
             uButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             uButton.ForeColor = SystemColors.ButtonFace;
             uButton.Location = new Point(304, 280);
@@ -482,6 +513,7 @@
             // iButton
             // 
             iButton.BackColor = SystemColors.ActiveCaptionText;
+            iButton.Cursor = Cursors.Hand;
             iButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             iButton.ForeColor = SystemColors.ButtonFace;
             iButton.Location = new Point(343, 280);
@@ -495,6 +527,7 @@
             // oButton
             // 
             oButton.BackColor = SystemColors.ActiveCaptionText;
+            oButton.Cursor = Cursors.Hand;
             oButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             oButton.ForeColor = SystemColors.ButtonFace;
             oButton.Location = new Point(384, 280);
@@ -508,6 +541,7 @@
             // yButton
             // 
             yButton.BackColor = SystemColors.ActiveCaptionText;
+            yButton.Cursor = Cursors.Hand;
             yButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             yButton.ForeColor = SystemColors.ButtonFace;
             yButton.Location = new Point(266, 280);
@@ -521,6 +555,7 @@
             // wButton
             // 
             wButton.BackColor = SystemColors.ActiveCaptionText;
+            wButton.Cursor = Cursors.Hand;
             wButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             wButton.ForeColor = SystemColors.ButtonFace;
             wButton.Location = new Point(106, 280);
@@ -534,6 +569,7 @@
             // eButton
             // 
             eButton.BackColor = SystemColors.ActiveCaptionText;
+            eButton.Cursor = Cursors.Hand;
             eButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             eButton.ForeColor = SystemColors.ButtonFace;
             eButton.Location = new Point(145, 280);
@@ -547,6 +583,7 @@
             // rButton
             // 
             rButton.BackColor = SystemColors.ActiveCaptionText;
+            rButton.Cursor = Cursors.Hand;
             rButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             rButton.ForeColor = SystemColors.ButtonFace;
             rButton.Location = new Point(186, 280);
@@ -560,6 +597,7 @@
             // tButton
             // 
             tButton.BackColor = SystemColors.ActiveCaptionText;
+            tButton.Cursor = Cursors.Hand;
             tButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             tButton.ForeColor = SystemColors.ButtonFace;
             tButton.Location = new Point(227, 280);
@@ -573,6 +611,7 @@
             // qButton
             // 
             qButton.BackColor = SystemColors.ActiveCaptionText;
+            qButton.Cursor = Cursors.Hand;
             qButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             qButton.ForeColor = SystemColors.ButtonFace;
             qButton.Location = new Point(68, 280);
@@ -586,6 +625,7 @@
             // pButton
             // 
             pButton.BackColor = SystemColors.ActiveCaptionText;
+            pButton.Cursor = Cursors.Hand;
             pButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             pButton.ForeColor = SystemColors.ButtonFace;
             pButton.Location = new Point(420, 280);
@@ -599,6 +639,7 @@
             // spaceButton
             // 
             spaceButton.BackColor = SystemColors.ActiveCaptionText;
+            spaceButton.Cursor = Cursors.Hand;
             spaceButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             spaceButton.ForeColor = SystemColors.ButtonFace;
             spaceButton.Location = new Point(87, 404);
@@ -612,12 +653,12 @@
             // richTextBox
             // 
             richTextBox.BackColor = Color.Gray;
-            richTextBox.BorderStyle = BorderStyle.FixedSingle;
             richTextBox.Dock = DockStyle.Top;
-            richTextBox.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox.ForeColor = Color.White;
+            richTextBox.Font = new Font("Arial", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox.ForeColor = SystemColors.ControlText;
             richTextBox.Location = new Point(0, 0);
             richTextBox.Name = "richTextBox";
+            richTextBox.ReadOnly = true;
             richTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
             richTextBox.Size = new Size(519, 232);
             richTextBox.TabIndex = 92;
@@ -626,6 +667,7 @@
             // exclamationMarkButton
             // 
             exclamationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            exclamationMarkButton.Cursor = Cursors.Hand;
             exclamationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             exclamationMarkButton.ForeColor = SystemColors.ButtonFace;
             exclamationMarkButton.Location = new Point(423, 364);
@@ -639,6 +681,7 @@
             // questionMarkButton
             // 
             questionMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            questionMarkButton.Cursor = Cursors.Hand;
             questionMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             questionMarkButton.ForeColor = SystemColors.ButtonFace;
             questionMarkButton.Location = new Point(460, 364);
@@ -652,6 +695,7 @@
             // quotationMarkButton
             // 
             quotationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            quotationMarkButton.Cursor = Cursors.Hand;
             quotationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             quotationMarkButton.ForeColor = SystemColors.ButtonFace;
             quotationMarkButton.Location = new Point(446, 322);
@@ -665,6 +709,7 @@
             // singleQuotationMarkButton
             // 
             singleQuotationMarkButton.BackColor = SystemColors.ActiveCaptionText;
+            singleQuotationMarkButton.Cursor = Cursors.Hand;
             singleQuotationMarkButton.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             singleQuotationMarkButton.ForeColor = SystemColors.ButtonFace;
             singleQuotationMarkButton.Location = new Point(407, 322);
