@@ -13,6 +13,10 @@ namespace Keyboard
             {
                 richTextBox.AppendText(" ");
             }
+            else if ((sender as Button).Text == "Backspace")
+            {
+
+            }
             else 
             {
                 richTextBox.AppendText((sender as Button).Text);
